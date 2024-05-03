@@ -260,19 +260,21 @@ nav {
     flex-wrap: wrap;
     justify-content: space-between;
     row-gap: 48px;
-
 }
 
-.portfolio_card-list-item {
-    width: calc((100% - 48px) / 3);
-    background: #fff;
+.portfolio_card-list-descr_box {
     border-bottom: 1px solid #e7e9fc;
     border-left: 1px solid #e7e9fc;
     border-right: 1px solid #e7e9fc;
 }
 
+.portfolio_card-list-item {
+    width: calc((100% - 48px) / 3);
+    background: #fff;
+}
+
 .portfolio_card-name {
-    margin-top: 32px;
+    padding-top: 32px;
     margin-left: 16px;
     font-weight: 500;
     font-size: 20px;
