@@ -45,7 +45,7 @@ main {
 }
 
 .section {
-    padding: 188px 0;
+    padding: 120px 0;
 }
 
 .header {
@@ -88,10 +88,11 @@ main {
 }
 
 .nav_list-item {
-    padding: 24px 0px;
+    padding: 24px 0;
 }
 
 .nav_list-item-link {
+    padding: 24px 0;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -130,6 +131,7 @@ main {
 /* promo section */
 
 .promo {
+    padding: 188px 0;
     background: #2e2f42;
 }
 
@@ -247,6 +249,7 @@ main {
 }
 
 .team_card-name {
+    margin-bottom: 8px;
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
@@ -256,7 +259,6 @@ main {
 }
 
 .team_card-position {
-    margin-top: 8px;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
@@ -270,6 +272,7 @@ main {
 .portfolio_card-list {
     display: flex;
     flex-wrap: wrap;
+    row-gap: 48px;
     column-gap: 24px;
 }
 
